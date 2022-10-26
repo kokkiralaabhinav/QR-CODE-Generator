@@ -25,10 +25,11 @@ codes directly to the console. A standard install is just::
 
 generate the code u can create the qr code
 
-import qrcode
+     import qrcode
 
-qr=qrcode.make("Enter your details\n")
+     qr=qrcode.make("Enter your details\n")
 
-qr.save("qrcode.png")
+     qr.save("qrcode.png")
 
-qr.show()
+     qr.show()
+
