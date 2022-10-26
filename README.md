@@ -1,8 +1,8 @@
 # QR-CODE-Generator
 
-=============================
-Pure python QR Code generator
-=============================
+
+## Pure python QR Code generator
+
 
 What is a QR Code?
 ==================
@@ -23,17 +23,12 @@ codes directly to the console. A standard install is just::
 
     pip install qrcode
 
-For more image functionality, install qrcode with the ``pil`` dependency so
-that pillow_ is installed and can be used for generating images::
-
-    pip install "qrcode[pil]"
-
-.. _pypng: https://pypi.python.org/pypi/pypng
-.. _pillow: https://pypi.python.org/pypi/Pillow
-
 generate the code u can create the qr code
 
 import qrcode
+
 qr=qrcode.make("Enter your details\n")
+
 qr.save("qrcode.png")
+
 qr.show()
