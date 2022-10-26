@@ -29,4 +29,3 @@ codes directly to the console. A standard install is just::
      qr=qrcode.make("Enter your details\n")
      qr.save("qrcode.png")
      qr.show()
-
