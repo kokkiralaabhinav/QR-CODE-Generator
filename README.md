@@ -1,7 +1,7 @@
 # QR-CODE-Generator
 
 
-## Pure python QR Code generator
+## ✨ Pure python QR Code generator✨ 
 
 
 ## What is a QR Code?
